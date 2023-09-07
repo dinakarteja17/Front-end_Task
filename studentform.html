@@ -10,36 +10,35 @@
                   border:solid;
                   padding-left: 100px;
                   border-radius: 100px;
-                
-                  
-                  
                 }
+
                 .studentdetails
                 {
                     font-size :xx-large;
                     color:red;
                 }
                
-                
                 body{
                     background-color: rgb(134, 116, 146);
                     background-image: url("student.jpg");
-                    background-position :top left;
-                    
-                    
+                    background-position :top left;   
                 }
+
                 p{
                     font-family: cursive;
                  }
+
                 input{
                     font-family:cursive ;
                     
                     border-radius: 50px;
                 }
+
                 #submit,#reset
                 {
                     font-family:cursive ; 
                 }
+
                 #span1
                 {
                     color: red;
@@ -53,13 +52,9 @@
                     color: red;
                 }
                 
-                
-
-                
         </style>
     </head>
     <body>
-        
         
         <form>
             <p class="studentdetails">student details</p>
@@ -72,12 +67,14 @@
                 <span id="span1"></span>
             </div>
 
+
           <div>
             <p>gender</p>
            <!-- /*name value is should be same for all of them*/ -->
             <input type="radio" name="male" >Male 
             <input type="radio" name="male">Female
           </div>
+
 
         <div>
             <p>mail id</p>
@@ -87,6 +84,7 @@
             <span id="span2"></span>
         </div>
               
+
            <div> 
               <p>qualification</p>
              <select id="stdqualification" onchange="updateequal()">
@@ -96,6 +94,7 @@
              </select>
            </div>
 
+
             <div>
                 <p>stream</p>
                 <select id="stream">
@@ -103,7 +102,6 @@
                 </select>
             </div>
 
-           
 
             <div>
                <p>mobile number</p>
@@ -120,11 +118,8 @@
                 <input type="radio" >back-end
                 <input type="radio" >AI
                 <input type="radio" >ML
-                
             </div>
 
-            
-  
            <br>
            <div>
             <button type="reset"  id="reset">cancel</button>&nbsp;&nbsp;&nbsp;
@@ -132,8 +127,6 @@
             <button id="submit">submit</button> 
             </div>
         </form>
-
-     
      
         <script src="app.js"></script>
     </body>
