@@ -106,7 +106,7 @@ function updateequal()
 
   var selectQualification = qualification.value;
   
-  if(selectQualification === "btech")
+  if(selectQualification === "BTech")
   {
     const option1 = document.createElement("option");
     const option2 = document.createElement("option");
@@ -124,7 +124,7 @@ function updateequal()
     stream.append(option4);
 
   }
-  else if(selectQualification === "bse")
+  else if(selectQualification === "Bse")
   {
     const option1 = document.createElement("option");
     const option2 = document.createElement("option");
@@ -137,6 +137,42 @@ function updateequal()
     stream.append(option1);
     stream.append(option2);
     stream.append(option3);
+
+  }
+  else if(selectQualification === "MBA")
+  {
+    const option1 = document.createElement("option");
+    const option2 = document.createElement("option");
+    const option3 = document.createElement("option");
+    const option4 = document.createElement("option");
+   
+    option1.innerText = "FINANCE";
+    option2.innerText = "MARKETING";
+    option3.innerText = "ACCOUNTANCY";
+    option4.innerText = "HUMAN RESOURCES";
+ 
+    stream.append(option1);
+    stream.append(option2);
+    stream.append(option3);
+    stream.append(option4);
+
+  }
+
+   else if(selectQualification === "MTech")
+  {
+    const option1 = document.createElement("option");
+    const option2 = document.createElement("option");
+    const option3 = document.createElement("option");
+   
+    option1.innerText = "ECE";
+    option2.innerText = "MECH";
+    option3.innerText = "CIVIL";
+    
+ 
+    stream.append(option1);
+    stream.append(option2);
+    stream.append(option3);
+    
 
   }
   
